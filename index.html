@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Cor do background-->
+<head>
+ 
+<style type="text/css">
+body {
+background-color: #808080
+
+}
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">Band</a>
+  <a href="#awards" class="w3-button w3-bar-item">Awards</a>
+  <a href="#history" class="w3-button w3-bar-item">History</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="img/imagem.jpg"
+  style="width:100%">
+  <img class="mySlides" src="img/imagem2.png"
+  style="width:100%">
+  <img class="mySlides" src="img/imagem3.png"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">THE BAND</h2>
+  <p class="w3-opacity"><i>We love music</i></p>
+  <p class="w3-justify">Queen is a rock band currently led by Brian May (guitar), Roger Taylor (drums) and John Deacon (bass). It was one of the most popular English bands of the 1970s and 1980s, being a forerunner of rock as we know it today, with magnificent productions of his concerts and music videos of his songs. Even though she was never taken seriously by critics of her time, who considered her music "commercial" (today's critics consider the Queen to be one of the best rock bands of all time), the band has become the most Famous among the public, thanks to its unique blend of complex and elaborate live performances and the dynamism and charisma of its biggest star, lead singer Freddie Mercury.
+The beginning of the band goes back to 1967, when Brian May, Tim Staffell and Roger Taylor formed the trio Smile, in Imperial College in London, where all studied. After the departure of bassist and vocalist Tim Staffell in the spring of 1970, May and Taylor were introduced by Staffell to Farrokh Bulsara in April of that same year, who was to be the lead singer of the new band with the stage name Freddie Mercury,Baptizing the band with the name Queen. In 1971, John Deacon completed the formation of the Queen as a bass player. </p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-#808080">
+  
+  <article class="w3-third">
+    <p>Freddie Mercury</p>
+    <img src="img/imagem4.png" alt="Random Name" style="width:60%">
+    <p>Vocals and Piano</p>
+  </article>
+ 
+  <article class="w3-third">
+    <p>Brian May</p>
+    <img src="img/imagem5.png" alt="Random Name" style="width:50%">
+    <p>Guitar and Vocals</p>
+  </article>
+ 
+  <article class="w3-third">
+    <p>John Deacon</p>
+    <img src="img/imagem6.png" alt="Random Name" style="width:48%">
+    <p>Bass</p>
+  </article>
+ 
+  <article class= "w3-third">
+    <p>Roger Taylor</p>
+    <img src="img/imagem7.png"  alt="Random Name" style="width: 60%" align="w3-center">
+     <p>Drums and Vocals</p> 
+  </article>
+  <article class= "w3-third">
+    <p>Bohemian Rhapsody</p>
+    <img src="img/imagem8.png"  alt="Random Name" style="width: 61%" align="w3-center">
+     <p>Digital Remester</p>
+  </article>
+  <article class= "w3-third">
+    <p>Queen 40 years.</p>
+    <img src="img/imagem9.png"  alt="Random Name" style="width: 58%" align="w3-center">
+  </article>
+
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</head>
+
+</html>
+
